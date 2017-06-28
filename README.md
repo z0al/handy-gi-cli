@@ -20,7 +20,17 @@ $ npm install -g handy-gi-cli
 
 ## Usage
 
-TODO
+```sh
+$ gi --help
+
+  Usage: gi <command> [options]
+
+  Options:
+
+    -h, --help     output usage information
+    -V, --version  output the version number
+
+```
 
 ## Supported templates
 
