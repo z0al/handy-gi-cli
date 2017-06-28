@@ -16,7 +16,7 @@
     "url": "https://github.com/ahmed-taj/handy-gi-cli.git"
   },
   "bin": {
-    "git": "./bin/gi"
+    "gi": "./bin/gi"
   },
   "files": [
     "README.md"
