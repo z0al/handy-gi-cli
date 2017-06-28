@@ -8,3 +8,8 @@ program
 
 // Process Commands
 program.parse(process.argv)
+
+// Print help if no sub-command is passed
+if (program.args.length === 0) {
+  program.help()
+}
