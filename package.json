@@ -1,6 +1,6 @@
 {
   "name": "handy-gi-cli",
-  "version": "0.0.0-development",
+  "preferGlobal": true,
   "author": "Ahmed Tajelsir <ah.tajelsir@gmail.com>",
   "description": "The command line version of handy-gi",
   "license": "MIT",
@@ -14,6 +14,9 @@
   },
   "repository": {
     "url": "https://github.com/ahmed-taj/handy-gi-cli.git"
+  },
+  "bin": {
+    "git": "./bin/gi"
   },
   "files": [
     "README.md"
@@ -54,5 +57,9 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "dependencies": {
+    "commander": "^2.10.0",
+    "handy-gi": "^3.0.0"
   }
 }
