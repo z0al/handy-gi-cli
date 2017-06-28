@@ -15,6 +15,9 @@
   "repository": {
     "url": "https://github.com/ahmed-taj/handy-gi-cli.git"
   },
+  "files": [
+    "README.md"
+  ],
   "keywords": [
     "handy-gi",
     "gitignore",
@@ -34,6 +37,7 @@
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1",
     "husky": "^0.14.1",
+    "jest": "^20.0.4",
     "semantic-release": "^6.3.6",
     "validate-commit-msg": "^2.12.2"
   },
