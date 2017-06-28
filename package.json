@@ -1,0 +1,54 @@
+{
+  "name": "handy-gi-cli",
+  "version": "0.0.0-development",
+  "author": "Ahmed Tajelsir <ah.tajelsir@gmail.com>",
+  "description": "The command line version of handy-gi",
+  "license": "MIT",
+  "scripts": {
+    "ci": "git-cz",
+    "commitmsg": "validate-commit-msg",
+    "lint": "eslint .",
+    "precommit": "npm test && npm run lint",
+    "test": "jest --coverage",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "url": "https://github.com/ahmed-taj/handy-gi-cli.git"
+  },
+  "keywords": [
+    "handy-gi",
+    "gitignore",
+    ".gitignore",
+    "cli"
+  ],
+  "engines": {
+    "node": ">=6.10.2",
+    "npm": ">=3.10.10"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.0.0",
+    "eslint": "^4.0.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-node": "^5.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "husky": "^0.14.1",
+    "semantic-release": "^6.3.6",
+    "validate-commit-msg": "^2.12.2"
+  },
+  "jest": {
+    "coverageReporters": [
+      "html",
+      "json",
+      "lcov",
+      "text"
+    ],
+    "testEnvironment": "node"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
