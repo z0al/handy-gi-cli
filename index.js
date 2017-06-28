@@ -1,6 +1,9 @@
 var program = require('commander')
 var packageJson = require('./package.json')
 
+// Load sub-commands
+require('./commands')(program)
+
 // Initilize CLI options
 program
   .version(packageJson.version)
