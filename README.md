@@ -26,11 +26,15 @@ $ gi --help
 
   Usage: gi <command> [options]
 
+
+  Commands:
+
+    ignore <dir>  generate .gitignore file
+
   Options:
 
     -h, --help     output usage information
     -V, --version  output the version number
-
 ```
 
 ## Supported templates
