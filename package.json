@@ -60,6 +60,6 @@
   },
   "dependencies": {
     "commander": "^2.10.0",
-    "handy-gi": "^3.0.1"
+    "handy-gi": "^3.3.0"
   }
 }
