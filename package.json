@@ -1,5 +1,6 @@
 {
   "name": "handy-gi-cli",
+  "version": "0.0.0-semantically-versioned",
   "preferGlobal": true,
   "author": "Ahmed Tajelsir <ah.tajelsir@gmail.com>",
   "description": "The command line version of handy-gi",
@@ -19,6 +20,10 @@
     "gi": "./bin/gi"
   },
   "files": [
+    "bin",
+    "commands",
+    "lib",
+    "index.js",
     "README.md"
   ],
   "keywords": [
