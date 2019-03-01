@@ -1,3 +1,5 @@
+> **Warning**: Not maintained, use [ignr](https://github.com/z0al/ignr) instead.
+
 # Handy `.gitignore` generator
 
 > Check [handy-gi](https://github.com/ahmed-taj/handy-gi) package for the programmatic version
